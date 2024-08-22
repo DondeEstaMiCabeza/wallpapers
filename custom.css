@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 @font-face {
     font-family: 'Compagnon-Roman';
-    src: url('/extras/Compagnon-Roman.ttf') format('truetype');
+    src: url('/extras/Compagnon-Roman.otf') format('truetype');
 }
 
 body {
     font-family: 'Compagnon-Roman', serif;
-    background-color: #FFFF00; /* Specific yellow */
-    color: #AA00AA; /* Specific purple */
+    background-color: #FFFF00;
+    color: #AA00AA;
 }
 
 h1, h2, h3, h4, h5, h6 {
