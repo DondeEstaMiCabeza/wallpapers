@@ -44,18 +44,16 @@ body::before {
 }
 
 .header {
-    margin-top: 460px; /* Move the "Inicio" down slightly below the logo */
+    margin-top: 200px; /* Increase space below the logo */
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) { /* Adjust the width as needed */
+@media (max-width: 768px) {
     body::before {
-        top: 10px !important;
-        transform: translateX(-50%) !important;
-        width: 80px !important;  /* Adjust the size as needed */
+        width: 100px !important;  /* Reduce logo size on mobile */
     }
 
     .header {
-        margin-top: 120px; /* Adjust this as needed */
+        margin-top: 180px; /* Adjust space below the logo on mobile */
     }
 }
