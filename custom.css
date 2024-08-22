@@ -43,11 +43,6 @@ body::before {
     z-index: 1000 !important;
 }
 
-/* Adjust the content margin to avoid overlap */
-.header {
-    margin-top: 200px; /* Adjust the space below the logo */
-}
-
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     body::before {
@@ -55,7 +50,6 @@ body::before {
     }
 
     .header {
-        margin-top: 180px; /* Adjust space below the logo on mobile */
+        margin-top: 200px; /* Adjust the margin-top for mobile devices */
     }
 }
-
