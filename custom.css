@@ -1,14 +1,32 @@
 /* Your custom styles goes here */
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@font-face {
+    font-family: 'Compagnon-Roman';
+    src: url('extras/Compagnon-Roman.ttf') format('truetype');
+}
 
+/* Título con Rubik */
+h1, .titulo {
+    font-family: 'Rubik', sans-serif;
+    color: #AA00AA; /* Morado específico */
+}
+
+/* Texto secundario con Compagnon-Roman */
+p, .texto-secundario {
+    font-family: 'Compagnon-Roman', serif;
+    color: #333333; /* Ajusta al color de tu elección */
+}
+
+/* Fondo amarillo */
 body {
-    font-family: 'Rubik Bubbles', cursive;
-    color: purple;
-    background-color: yellow;
+    background-color: #FFFF00; /* Amarillo específico */
 }
 
-h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, select {
-    font-family: 'Rubik Bubbles', cursive;
-    color: purple;
+/* Estilo para el logo en la esquina superior izquierda */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* Ajusta el tamaño según lo necesites */
+    height: auto;
 }
-
