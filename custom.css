@@ -7,7 +7,6 @@
 body {
     font-family: 'Compagnon-Roman', serif;
     background-color: #FFFF00;
-    color: #AA00AA;
 }
 
 h1 {
@@ -16,7 +15,6 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     font-family: 'Compagnon-Roman', serif;
-    color: #AA00AA;
     text-shadow: none;
 }
 
@@ -44,7 +42,7 @@ body::before {
 }
 
 .header {
-    margin-top: 160px; /* Move the "Inicio" down slightly below the logo */
+    margin-top: -160px; /* Move the "Inicio" down slightly below the logo */
 }
 
 
