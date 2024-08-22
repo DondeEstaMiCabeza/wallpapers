@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 @font-face {
     font-family: 'Compagnon-Roman';
-    src: url('/extras/Compagnon-Roman.otf') format('opentype');
+    src: url('https://raw.githubusercontent.com/DondeEstaMiCabeza/wallpapers/master/extras/Compagnon-Roman.otf') format('opentype');
 }
 
 body {
@@ -12,6 +12,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Compagnon-Roman', cursive;
+    color: #AA00AA; /* Specific purple */
     text-shadow: none;
 }
 
@@ -30,11 +31,12 @@ p, a, button, input, textarea, select {
 body::before {
     content: url('https://raw.githubusercontent.com/DondeEstaMiCabeza/wallpapers/master/extras/logo.png') !important;
     position: fixed !important;
-    top: 50% !important;
+    top: 0 !important;
     left: 50% !important;
-    transform: translate(-50%, -50%) !important;
+    transform: translateX(-50%) !important;
     width: 100px !important;  /* Adjust the size as needed */
     height: auto !important;
     z-index: 1000 !important;
 }
+
 
