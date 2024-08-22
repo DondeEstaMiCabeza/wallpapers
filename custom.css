@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 @font-face {
     font-family: 'Compagnon-Roman';
-    src: url('/extras/Compagnon-Roman.otf') format('truetype');
+    src: url('/extras/Compagnon-Roman.otf') format('opentype');
 }
 
 body {
