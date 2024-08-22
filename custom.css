@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @font-face {
     font-family: 'Compagnon-Roman';
-    src: url('extras/Compagnon-Roman.ttf') format('truetype');
+    src: url('./extras/Compagnon-Roman.ttf') format('truetype');
 }
 
 /* Título con Rubik */
