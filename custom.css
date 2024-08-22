@@ -1,10 +1,14 @@
 /* Your custom styles goes here */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Bubbles', cursive;
+    color: purple;
+    background-color: yellow;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, select {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Bubbles', cursive;
+    color: purple;
 }
+
