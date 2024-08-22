@@ -5,38 +5,47 @@
 }
 
 body {
-    font-family: 'Rubik Bubbles', serif;
+    font-family: 'Compagnon-Roman', serif;
     background-color: #FFFF00;
     color: #AA00AA;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Compagnon-Roman', cursive;
-    color: #AA00AA; /* Specific purple */
+h1 {
+    display: none; /* Hide the title */
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Compagnon-Roman', serif;
+    color: #AA00AA;
     text-shadow: none;
 }
 
 p, a, button, input, textarea, select {
-    font-family: 'Rubik Bubbles', serif;
-    color: #AA00AA; /* Specific purple */
+    font-family: 'Rubik Bubbles', cursive;
+    color: #AA00AA;
     text-shadow: none;
 }
 
 .header-title, .header {
     font-family: 'Rubik Bubbles', cursive;
-    color: #AA00AA; /* Specific purple */
+    color: #AA00AA;
     text-shadow: none;
 }
 
 body::before {
     content: url('https://raw.githubusercontent.com/DondeEstaMiCabeza/wallpapers/master/extras/logo.png') !important;
     position: fixed !important;
-    top: 0 !important;
+    top: 10px !important;  /* Adjust to move logo slightly down */
     left: 50% !important;
     transform: translateX(-50%) !important;
-    width: 100px !important;  /* Adjust the size as needed */
+    width: 150px !important;  /* Adjust size if needed */
     height: auto !important;
     z-index: 1000 !important;
 }
+
+.header {
+    margin-top: 160px; /* Move the "Inicio" down slightly below the logo */
+}
+
 
 
