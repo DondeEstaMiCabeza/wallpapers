@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
 @font-face {
     font-family: 'Compagnon-Roman';
     src: url('https://raw.githubusercontent.com/DondeEstaMiCabeza/wallpapers/master/extras/Compagnon-Roman.otf') format('opentype');
@@ -6,7 +7,6 @@
 
 body {
     font-family: 'Compagnon-Roman', serif;
-    color: #FFFFFF;
     background-color: #FFFF00;
 }
 
@@ -21,20 +21,20 @@ h2, h3, h4, h5, h6 {
 }
 
 p, a, button, input, textarea, select {
-    font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Rubik Bubbles', Arial, sans-serif;
     color: #AA00AA;
     text-shadow: none;
 }
 
 .header-title, .header {
-    font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Rubik Bubbles',  Arial, sans-serif;
     color: #AA00AA;
     text-shadow: none;
 }
 
 body::before {
     content: url('https://raw.githubusercontent.com/DondeEstaMiCabeza/wallpapers/master/extras/logo.png') !important;
-    position: fixed !important;
+    position: absolute !important; /* Use absolute positioning */
     top: 10px !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
@@ -43,8 +43,9 @@ body::before {
     z-index: 1000 !important;
 }
 
+/* Adjust the content margin to avoid overlap */
 .header {
-    margin-top: 200px; /* Increase space below the logo */
+    margin-top: 200px; /* Adjust the space below the logo */
 }
 
 /* Media query for mobile devices */
@@ -57,3 +58,4 @@ body::before {
         margin-top: 180px; /* Adjust space below the logo on mobile */
     }
 }
+
